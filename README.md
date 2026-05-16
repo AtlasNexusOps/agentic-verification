@@ -1,6 +1,6 @@
-# Vérification Agentique — Landing Page
+# Agentic Verification — Landing Page
 
-**Landing page redesign pour la première marketplace on-chain de bounties avec identité agentique ERC-8004.**
+**Landing page redesign for the first on-chain bounty marketplace with ERC-8004 agent identity verification.**
 
 [![Celo](https://img.shields.io/badge/Celo-Mainnet-brightgreen)](https://celoscan.io/address/0x1362d874F40B7e28836cBeCcA14f5EfBe6c6E423)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org)
@@ -9,26 +9,26 @@
 
 ---
 
-## Contexte
+## Context
 
-Bounty résolu pour [Claudelance](https://github.com/yeheskieltame/claudelance) — le premier protocole on-chain où des agents IA vérifiés (ERC-8004) résolvent des bounties GitHub et sont payés en cUSD/CELO/USDC sur Celo Mainnet.
+Bounty completed for [Claudelance](https://github.com/yeheskieltame/claudelance) — the first on-chain protocol where verified AI agents (ERC-8004) solve GitHub bounties and earn cUSD/CELO/USDC on Celo Mainnet.
 
-**Issue :** [#144 — feat(web): / landing page redesign (B47)](https://github.com/yeheskieltame/claudelance/issues/144)  
-**PR :** [#208](https://github.com/yeheskieltame/claudelance/pull/208)  
-**Bounty ID on-chain :** 45 sur `ClaudelanceCore` `0x1362d8…E423`
+**Issue:** [#144 — feat(web): / landing page redesign (B47)](https://github.com/yeheskieltame/claudelance/issues/144)  
+**PR:** [#208](https://github.com/yeheskieltame/claudelance/pull/208)  
+**On-chain bounty ID:** 45 on `ClaudelanceCore` `0x1362d8…E423`
 
 ---
 
-## Spécification livrée
+## Delivered spec
 
-| Élément | Description |
+| Section | Description |
 |---------|-------------|
-| **Hero** | Tagline + live CELO revenue (fetch on-chain) + 2 CTAs |
-| **Stats** | 3 cartes — bounties résolus / workers uniques / volume total |
-| **Bounties scroll** | Horizontal scroll des 5 derniers bounties ouverts (API on-chain) |
-| **How it works** | 3 étapes avec icônes (Post → Compete → Get Paid) |
-| **Sticky CTA** | Barre mobile fixe (Post / Browse) |
-| **Performance** | Suspense + fallbacks squelettes — 0 layout shift |
+| **Hero** | Tagline + live CELO revenue (on-chain fetch) + 2 CTAs |
+| **Stats** | 3 cards — bounties resolved / unique workers / total volume |
+| **Bounties scroll** | Horizontal scroll of 5 latest open bounties (on-chain API) |
+| **How it works** | 3 steps with icons (Post → Compete → Get Paid) |
+| **Sticky CTA** | Mobile-only fixed bar (Post / Browse) |
+| **Performance** | Suspense + skeleton fallbacks — 0 layout shift |
 
 ---
 
@@ -37,7 +37,7 @@ Bounty résolu pour [Claudelance](https://github.com/yeheskieltame/claudelance) 
 - **Next.js 15** (App Router)
 - **React 19** + TypeScript
 - **Tailwind CSS** + shadcn/ui
-- **viem** + **wagmi** (lecture on-chain via multicall)
+- **viem** + **wagmi** (on-chain reads via multicall)
 - **Celo Mainnet** (chain ID 42220)
 
 ---
@@ -46,28 +46,28 @@ Bounty résolu pour [Claudelance](https://github.com/yeheskieltame/claudelance) 
 
 ```
 app/
-  page.tsx              — composition landing page
+  page.tsx              — landing page composition
 components/
-  hero.tsx              — hero + revenue live
+  hero.tsx              — hero + live revenue
   live-stats.tsx        — 3-card stats strip
-  how-it-works.tsx      — 3 étapes
-  bounties-scroll.tsx   — scroll horizontal bounties
-  sticky-cta.tsx        — CTA mobile fixe
+  how-it-works.tsx      — 3 steps
+  bounties-scroll.tsx   — horizontal bounty scroll
+  sticky-cta.tsx        — mobile sticky CTA
   header.tsx            — nav bar
   footer.tsx            — footer
 ```
 
 ---
 
-## Pourquoi « Vérification Agentique »
+## Why "Agentic Verification"
 
-Le cœur du protocole Claudelance n'est pas la marque — c'est le standard **ERC-8004** qui permet de vérifier l'identité d'un agent IA sur Celo. Chaque worker possède un NFT d'identité vérifié on-chain, créant un marché du travail agentique sans confiance. Ce projet démontre la capacité à intégrer une UI moderne sur une infrastructure décentralisée de vérification d'identité.
+The core of the Claudelance protocol isn't the brand — it's the **ERC-8004** standard that enables on-chain AI agent identity verification on Celo. Every worker holds a verifiable identity NFT, creating a trustless agentic labor market. This project demonstrates the ability to integrate modern UI on top of decentralized identity verification infrastructure.
 
 ---
 
-## Auteur
+## Author
 
 **Alexandre Lasly** — Atlas Nexus  
-- Portfolio : [atlasnexusops.github.io](https://atlasnexusops.github.io)  
-- GitHub : [AtlasNexusOps](https://github.com/AtlasNexusOps)  
-- Contact : alexandre.chahiba@gmail.com
+- Portfolio: [atlasnexusops.github.io](https://atlasnexusops.github.io)  
+- GitHub: [AtlasNexusOps](https://github.com/AtlasNexusOps)  
+- Contact: alexandre.chahiba@gmail.com
