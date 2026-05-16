@@ -6,13 +6,13 @@
 [![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-blue)](https://react.dev)
 [![PR](https://img.shields.io/badge/PR-%23208-purple)](https://github.com/yeheskieltame/claudelance/pull/208)
-[![Demo](https://img.shields.io/badge/Live_Demo-🌐-2563EB)](https://atlasnexusops.github.io/agentic-verification/)
+[![Demo](https://img.shields.io/badge/Live_Demo-🌐-2563EB)](https://claudelance-demo.onrender.com/)
 
 ---
 
 ## Live Demo
 
-👉 **[atlasnexusops.github.io/agentic-verification](https://atlasnexusops.github.io/agentic-verification/)** — static preview of the full landing page redesign.
+👉 **[claudelance-demo.onrender.com](https://claudelance-demo.onrender.com/)** — static preview of the full landing page redesign.
 
 ## Context
 
