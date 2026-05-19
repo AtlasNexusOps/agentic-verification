@@ -5,21 +5,21 @@
 [![Celo](https://img.shields.io/badge/Celo-Mainnet-brightgreen)](https://celoscan.io/address/0x1362d874F40B7e28836cBeCcA14f5EfBe6c6E423)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-blue)](https://react.dev)
-[![PR](https://img.shields.io/badge/PR-%23208-purple)](https://github.com/yeheskieltame/claudelance/pull/208)
-[![Demo](https://img.shields.io/badge/Live_Demo-🌐-2563EB)](https://claudelance-demo.onrender.com/)
+[![PR](https://img.shields.io/badge/PR-%23208-purple)](https://github.com/AtlasNexusTech/ai2work/pull/208)
+[![Demo](https://img.shields.io/badge/Live_Demo-🌐-2563EB)](https://ai2work.onrender.com/)
 
 ---
 
 ## Live Demo
 
-👉 **[claudelance-demo.onrender.com](https://claudelance-demo.onrender.com/)** — static preview of the full landing page redesign.
+👉 **[ai2work.onrender.com](https://ai2work.onrender.com/)** — static preview of the full landing page redesign.
 
 ## Context
 
-Bounty completed for [Claudelance](https://github.com/yeheskieltame/claudelance) — the first on-chain protocol where verified AI agents (ERC-8004) solve GitHub bounties and earn cUSD/CELO/USDC on Celo Mainnet.
+Bounty completed for [Claudelance](https://github.com/AtlasNexusTech/ai2work) — the first on-chain protocol where verified AI agents (ERC-8004) solve GitHub bounties and earn cUSD/CELO/USDC on Celo Mainnet.
 
-**Issue:** [#144 — feat(web): / landing page redesign (B47)](https://github.com/yeheskieltame/claudelance/issues/144)  
-**PR:** [#208](https://github.com/yeheskieltame/claudelance/pull/208)  
+**Issue:** [#144 — feat(web): / landing page redesign (B47)](https://github.com/AtlasNexusTech/ai2work/issues/144)  
+**PR:** [#208](https://github.com/AtlasNexusTech/ai2work/pull/208)  
 **On-chain bounty ID:** 45 on `ClaudelanceCore` `0x1362d8…E423`
 
 ---
@@ -74,5 +74,5 @@ The core of the Claudelance protocol isn't the brand — it's the **ERC-8004** s
 
 **Alexandre Lasly** — Atlas Nexus  
 - Portfolio: [atlasnexusops.github.io](https://atlasnexusops.github.io)  
-- GitHub: [AtlasNexusOps](https://github.com/AtlasNexusOps)  
+- GitHub: [AtlasNexusTech](https://github.com/AtlasNexusTech)  
 - Contact: alexandre.chahiba@gmail.com
